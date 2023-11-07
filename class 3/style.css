@@ -1,0 +1,41 @@
+
+.practice{
+    border: black 5px dotted;
+    outline: red 10px solid;
+}
+
+nav ul{
+    background-color: black;
+    list-style:none;
+    padding: 0;
+
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover .dropdown{
+    display: block;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: brown;
+}
+.dropdown li{
+    display: block;
+}
+.dropdown li a{
+    padding: 10px 20px;
+}
+.dropdown li:hover{
+    background-color: #444;
+}
